@@ -3,15 +3,13 @@
 :root {
   --brand-gradient: linear-gradient(
     90deg,
-    #ff6b35 0%,
-    #e83e8c 50%,
-    #8b3dff 100%
+    #ff6b35,
+    #e83e8c,
+    #8b3dff
   );
 }
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -20,7 +18,6 @@ html {
 }
 
 body {
-  font-family: Inter, Arial, sans-serif;
-  background: #ffffff;
-  color: #111827;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }

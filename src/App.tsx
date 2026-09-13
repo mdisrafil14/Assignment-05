@@ -1,10 +1,18 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <div>
-      <h1 className="mt-20 text-center text-4xl font-bold">
-        Dev Stack
-      </h1>
-    </div>
+    <>
+      <Navbar />
+
+      <main>
+        <section className="flex min-h-[500px] items-center justify-center">
+          <h1 className="text-4xl font-bold text-slate-900">
+            Dev Stack
+          </h1>
+        </section>
+      </main>
+    </>
   );
 }
 
