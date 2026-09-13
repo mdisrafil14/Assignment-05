@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --brand-gradient: linear-gradient(
+    90deg,
+    #ff6b35 0%,
+    #e83e8c 50%,
+    #8b3dff 100%
+  );
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter, Arial, sans-serif;
+  background: #ffffff;
+  color: #111827;
+}
