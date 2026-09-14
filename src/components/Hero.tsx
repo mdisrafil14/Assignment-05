@@ -2,13 +2,13 @@ import banner from "../assets/banner-stack.png";
 
 const Hero = () => {
   return (
-    <section className="mx-auto flex min-h-[520px] w-[92%] max-w-7xl items-center justify-between gap-10 py-16">
+    <section className="mx-auto flex min-h-130 w-[92%] max-w-7xl items-center justify-between gap-10 py-16">
       
       {/* Text */}
       <div className="max-w-xl">
         <h1 className="text-4xl font-bold leading-tight text-slate-900 sm:text-5xl lg:text-6xl">
           Build Your Ideal
-          <span className="block bg-gradient-to-r from-orange-500 via-pink-500 to-violet-500 bg-clip-text text-transparent">
+          <span className="block bg-linear-to-r from-orange-500 via-pink-500 to-violet-500 bg-clip-text text-transparent">
             Development Stack
           </span>
         </h1>
@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="mt-7 flex flex-wrap gap-3">
           <a
             href="#technologies"
-            className="rounded-md bg-gradient-to-r from-orange-500 via-pink-500 to-violet-500 px-5 py-3 text-sm font-semibold text-white"
+            className="rounded-md bg-linear-to-r from-orange-500 via-pink-500 to-violet-500 px-5 py-3 text-sm font-semibold text-white"
           >
             Explore Technologies
           </a>
@@ -42,7 +42,7 @@ const Hero = () => {
         <img
           src={banner}
           alt="Development stack illustration"
-          className="w-[360px] lg:w-[430px]"
+          className="w-90 lg:w-107.5"
         />
       </div>
     </section>

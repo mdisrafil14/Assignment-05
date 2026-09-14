@@ -4,7 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import TechnologyCard from "./components/technologyCard";
+import TechnologyCard from "./components/TechnologyCard";
 import YourStack from "./components/YourStack";
 import Footer from "./components/Footer";
 
