@@ -62,7 +62,7 @@ function App() {
               Loading technologies...
             </p>
           ) : (
-            <div className="mt-8 grid gap-5 md:grid-cols-2">
+            <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
               {technologies.map((tech) => (
                 <TechnologyCard
                   key={tech.id}
